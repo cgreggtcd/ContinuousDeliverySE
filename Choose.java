@@ -19,6 +19,7 @@ public class Choose {
             }
             if(selection < 1 || selection > 3){
                 System.out.println("Input one of 1, 2, 3.");
+                continue;
             }
             System.out.println("Input two integers");
             while (!input.hasNextInt()) {
